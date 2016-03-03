@@ -12,12 +12,14 @@ html
 	body
 
 		.container.title
+			h1.center ?
 			h2.center IS IT PRIME?
 			
-			form#piglatin
+			form#primetester
 				.form-group.center
 					input(id="number", type="text")
-					button(type="submit", class="button") CHECK!
+					button(id="check", type="submit", class="button") CHECK!
 					
-			#result
-				p THIS NUMBER IS #[span.sentence]
+			#result.center
+				p.center THIS NUMBER IS #[span.sentence]
+				button(id="clear", type="submit", class="button") CLEAR

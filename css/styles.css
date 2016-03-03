@@ -28,7 +28,16 @@
   font-weight: 600;
   letter-spacing: 4px;
   color: #fff;
-  margin-top: 400px;
+}
+
+.title h1 {
+  font-family: serif;
+  font-weight: 600;
+  font-size: 25em;
+  line-height: 250px;
+  letter-spacing: 4px;
+  margin-top: 250px;
+  color: #fff;
 }
 
 .subsitle p {
@@ -92,4 +101,11 @@ a {
 
 #result{
   display: none;
+}
+
+#result p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 6px;
+  color: #fff;
 }
