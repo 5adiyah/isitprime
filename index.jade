@@ -1,0 +1,23 @@
+//output:index.html
+
+doctype
+html
+	title 5adiyah
+	link(rel="stylesheet", href="css/normalize.css")
+	link(rel="stylesheet", href="css/skeleton.css")
+	link(rel="stylesheet", href="css/styles.css")
+	link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel="stylesheet" type="text/css")
+	script(src="jquery-1.12.0.js")
+	script(src="scripts.js")
+	body
+
+		.container.title
+			h2.center IS IT PRIME?
+			
+			form#piglatin
+				.form-group.center
+					input(id="number", type="text")
+					button(type="submit", class="button") CHECK!
+					
+			#result
+				p THIS NUMBER IS #[span.sentence]

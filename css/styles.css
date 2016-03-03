@@ -1,0 +1,95 @@
+.header {
+  margin-top: 3%;
+  padding-top: 3%;
+}
+
+.center {
+  text-align: center;
+}
+
+.white{
+  color: #fff;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.darkpurple {
+  color: #140023
+}
+
+.tan {
+  color: #EE9285;
+}
+
+.title h2 {
+  font-family: serif;
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: #fff;
+  margin-top: 400px;
+}
+
+.subsitle p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 6px;
+  color: #fff;
+}
+
+.whitebox {
+  background-color: #fafafa;
+  margin-bottom: 3%;
+  border-radius: 15px;
+}
+
+body {
+  background-color: #28A9BC;
+  color: #140023;
+}
+
+.button:hover{
+  background-color: #fff;
+  color: #EE9285;
+  border: 1px solid #fff;
+}
+
+hr {
+  color: #FFF;
+  border: 2px solid #FFF;
+}
+
+a {
+  text-decoration: none;
+  color: #EE9285;
+}
+
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+  background-color: #fff;
+  border-color: #140023;
+}
+
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+#result{
+  display: none;
+}
